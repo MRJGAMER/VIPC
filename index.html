@@ -1,0 +1,643 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Valorant Invetory Price Calculator</title> 
+        <link rel="stylesheet" href="style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <style>
+            body, html {
+                height: 135%;
+            }
+            
+            .parallax {
+                background-image: url(bg.png);
+                
+                height: 282%;
+                
+                background-attachment: fixed;
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+            
+            @media only screen and (max-device-width: 1366px) {
+                .parallax {
+                    background-attachment: scroll;
+                }
+            }
+        
+        </style>
+    </head>
+    
+    <body>
+        
+        <div class="parallax"></div>
+        
+        <h1 align="center" class="heading">
+            <b>Valorant Inventory Price Calculator (VIPC)</b>
+            <p> Select the skins you have in your inventory to calculate total value of your inventory!</p>
+        </h1><br>
+        
+        <h4 align="center" class="note">
+            <p>Note: The skins available in this website are all the skins in the game except Battlepass and Agent Skins as they have no specific value or price and also the total is not fully correct as you may have owned the skin by discount or sale etc. And also the website is broken on MOST devices which I will fix once I get the neccessary help required or the knowledge to do so!</p>
+            <p>Ignore the broken white line in between as it is a bug which I dont know how to fix!</p><br>
+        </h4><br>
+        
+        <div class="menu">
+            <h2>
+                <a href="#About" style="color:aquamarine"><b>About</b></a>
+                <a href="#Facts" style="color: aqua"><b>Fun Facts</b></a>
+            </h2>
+        </div>
+        
+        
+        
+        <div class="Skins" id="centerdiv">
+            
+            <form Name="Skins">
+                <h3 style="color:white; font-family:monospace; font-size: 30px; "><b><u>Ares Skins</u></b></h3>
+                    <input type="checkbox" id="AreSkin1" name="Aristocrat" value="1275" >
+                    <label for="Weaponares1"> Aristocrat</label><br>
+                    <input type="checkbox" id="AreSkin2" name="Rush" value="875">
+                    <label for="Weaponares2"> Rush</label><br>
+                    <input type="checkbox" id="AreSkin3" name="Sakura" value="1275">
+                    <label for="Weaponares3"> Sakura</label><br>
+                    <input type="checkbox" id="AreSkin4" name="Prism" value="1275" >
+                    <label for="Weaponares4"> Prism</label><br>
+                    <input type="checkbox" id="AreSkin5" name="Nebula" value="1775" >
+                    <label for="Weaponares5"> Nebula</label><br>
+                    <input type="checkbox" id="AreSkin6" name="Singularity" value="2175" >
+                    <label for="Weaponares6"> Singularity</label><br>
+                    <input type="checkbox" id="AreSkin7" name="Celestial" value="1775" >
+                    <label for="Weaponares7"> Celestial</label><br>
+                    <input type="checkbox" id="AreSkin8" name="Infantry" value="875" >
+                    <label for="Weaponares8"> Infantry</label><br>
+                    <input type="checkbox" id="AreSkin9" name="Minima" value="1275" >
+                    <label for="Weaponares9"> Minima</label><br>
+                    <input type="checkbox" id="AreSkin10" name="Sentinels of Light" value="2175" >
+                    <label for="Weaponares10"> Sentinels of Light</label><br>
+                    <input type="checkbox" id="AreSkin11" name="Valorant Go! Vol. 2" value="1775" >
+                    <label for="Weaponares11"> Valorant Go! Vol. 2</label><br>
+                    <input type="checkbox" id="AreSkin12" name="Nunca Olvidados" value="1275" >
+                    <label for="Weaponares12"> Nunca Olvidados</label><br>
+                    <input type="checkbox" id="AreSkin13" name="Magepunk" value="1775" >
+                    <label for="Weaponares13"> Magepunk</label><br>
+                    <input type="checkbox" id="AreSkin14" name="Snowfall" value="1275" >
+                    <label for="Weaponares14"> Snowfall</label><br>
+                <h3 style="color:white; font-family:monospace; font-size: 30px; "><b><u>Bucky Skins</u></b></h3>
+                    <input type="checkbox" id="BuckySkin1" name="Galleria" value="875" >
+                    <label for="Weaponbucky1"> Galleria</label><br>
+                    <input type="checkbox" id="BuckySkin2" name="Oni" value="1775" >
+                    <label for="Weaponbucky2"> Oni</label><br>
+                    <input type="checkbox" id="BuckySkin3" name="Gravitational Uranium Neuroblaster" value="1775" >
+                    <label for="Weaponbucky3"> Gravitational Uranium Neuroblaster</label><br>
+                    <input type="checkbox" id="BuckySkin4" name="Ion" value="1775" >
+                    <label for="Weaponbucky4"> Ion</label><br>
+                    <input type="checkbox" id="BuckySkin5" name="Prism II" value="875" >
+                    <label for="Weaponbucky5"> Prism II</label><br>
+                    <input type="checkbox" id="BuckySkin6" name="Horizon" value="1275" >
+                    <label for="Weaponbucky6"> Horizon</label><br>
+                    <input type="checkbox" id="BuckySkin7" name="Prime//2.0" value="1775" >
+                    <label for="Weaponbucky6"> Prime//2.0</label><br>
+                    <input type="checkbox" id="BuckySkin7" name="Magepunk" value="1775" >
+                    <label for="Weaponbucky7"> Magepunk</label><br>
+                    <input type="checkbox" id="BuckySkin8" name="Origin" value="1775" >
+                    <label for="Weaponbucky8"> Origin</label><br>
+                    <input type="checkbox" id="BuckySkin9" name="Radiant Crisis 001" value="1775" >
+                    <label for="Weaponbucky8"> Radiant Crisis 001</label><br>
+                <h3 style="color:white; font-family:monospace; font-size: 30px; "><b><u>Bulldog Skins</u></b></h3>
+                    <input type="checkbox" id="BulldogSkin1" name="Aristocrat" value="1275" >
+                    <label for="Weaponbulldog1"> Aristocrat</label><br>
+                    <input type="checkbox" id="BulldogSkin2" name="Rush" value="875" >
+                    <label for="Weaponbulldog2"> Rush</label><br>
+                    <input type="checkbox" id="BulldogSkin3" name="Convex" value="875" >
+                    <label for="Weaponbulldog3"> Convex</label><br>
+                    <input type="checkbox" id="BulldogSkin4" name="Glitchpop" value="2175" >
+                    <label for="Weaponbulldog4"> Glitchpop</label><br>
+                    <input type="checkbox" id="BulldogSkin5" name="Horizon" value="1275" >
+                    <label for="Weaponbulldog5"> Horizon</label><br>
+                    <input type="checkbox" id="BulldogSkin6" name="SPECTRUM" value="2675" >
+                    <label for="Weaponbulldog6"> SPECTRUM</label><br>
+                    <input type="checkbox" id="BulldogSkin7" name="Nunca Olvidados" value="1275" >
+                    <label for="Weaponbulldog7"> Nunca Olvidados</label><br>
+                <h3 style="color:white; font-family:monospace; font-size: 30px; "><b><u>Classic Skins</u></b></h3>
+                    <input type="checkbox" id="ClassicSkin1" name="Galleria" value="875" >
+                    <label for="Weaponclassic1"> Galleria</label><br>
+                    <input type="checkbox" id="ClassicSkin2" name="Sakura" value="1275" >
+                    <label for="Weaponclassic2"> Sakura</label><br>
+                    <input type="checkbox" id="ClassicSkin3" name="Avalanche" value="1275" >
+                    <label for="Weaponclassic3"> Avalanche</label><br>
+                    <input type="checkbox" id="ClassicSkin4" name="Prime" value="1775" >
+                    <label for="Weaponclassic4"> Prime</label><br>
+                    <input type="checkbox" id="ClassicSkin5" name="Spline" value="1775" >
+                    <label for="Weaponclassic5"> Spline</label><br>
+                    <input type="checkbox" id="ClassicSkin6" name="Smite" value="875" >
+                    <label for="Weaponclassic6"> Smite</label><br>
+                    <input type="checkbox" id="ClassicSkin7" name="Gravitational Uranium Neuroblaster" value="1775" >
+                    <label for="Weaponclassic7"> Gravitational Uranium Neuroblaster</label><br>
+                    <input type="checkbox" id="ClassicSkin8" name="Glitchpop" value="2175" >
+                    <label for="Weaponclassic8"> Glitchpop</label><br>
+                    <input type="checkbox" id="ClassicSkin9" name="Forsaken" value="1775" >
+                    <label for="Weaponclassic9"> Forsaken</label><br>
+                    <input type="checkbox" id="ClassicSkin10" name="SPECTRUM" value="2675" >
+                    <label for="Weaponclassic10"> SPECTRUM</label><br>
+                    <input type="checkbox" id="ClassicSkin11" name="Valorant Go! Vol. 2" value="1775" >
+                    <label for="Weaponclassic11"> Valorant Go! Vol. 2</label><br>
+                    <input type="checkbox" id="ClassicSkin12" name="Radiant Crisis 001" value="1775" >
+                    <label for="Weaponclassic12"> Radiant Crisis 001</label><br>
+                    <input type="checkbox" id="ClassicSkin13" name="Snowfall" value="1275" >
+                    <label for="Weaponclassic12"> Snowfall</label><br>
+                <h3 style="color:white; font-family:monospace; font-size: 30px; "><b><u>Frenzy Skins</u></b></h3>
+                    <input type="checkbox" id="FrenzySkin1" name="Rush" value="875" >
+                    <label for="Weaponfrenzy1"> Rush</label><br>
+                    <input type="checkbox" id="FrenzySkin2" name="Elderflame" value="2475" >
+                    <label for="Weaponfrenzy2"> Elderflame</label><br>
+                    <input type="checkbox" id="FrenzySkin3" name="Glitchpop" value="2175" >
+                    <label for="Weaponfrenzy3"> Glitchpop</label><br>
+                    <input type="checkbox" id="FrenzySkin4" name="Sensation" value="875" >
+                    <label for="Weaponfrenzy4"> Sensation</label><br>
+                    <input type="checkbox" id="FrenzySkin5" name="BlastX" value="2175" >
+                    <label for="Weaponfrenzy5"> BlastX</label><br>
+                    <input type="checkbox" id="FrenzySkin6" name="Horizon" value="1275" >
+                    <label for="Weaponfrenzy6"> Horizon</label><br>
+                    <input type="checkbox" id="FrenzySkin7" name="Celestial" value="1775" >
+                    <label for="Weaponfrenzy7"> Celestial</label><br>
+                    <input type="checkbox" id="FrenzySkin8" name="Prime//2.0" value="1775" >
+                    <label for="Weaponfrenzy8"> Prime//2.0</label><br>
+                    <input type="checkbox" id="FrenzySkin9" name="Origin" value="1775" >
+                    <label for="Weaponfrenzy9"> Origin</label><br>
+                    <input type="checkbox" id="FrenzySkin10" name="RGX 11z Pro" value="2175" >
+                    <label for="Weaponfrenzy10"> RGX 11z Pro</label><br>
+                    <input type="checkbox" id="FrenzySkin11" name="Nunca Olvidados" value="1275" >
+                    <label for="Weaponfrenzy11"> Nunca Olvidados</label><br>
+                <h3 style="color:white; font-family:monospace; font-size: 30px; "><b><u>Ghost Skins</u></b></h3>
+                    <input type="checkbox" id="GhostSkin1" name="Luxe" value="875" >
+                    <label for="Weaponghost1"> Luxe</label><br>
+                    <input type="checkbox" id="GhostSkin2" name="Sovereign" value="1775" >
+                    <label for="Weaponghost2"> Sovereign</label><br>
+                    <input type="checkbox" id="GhostSkin3" name="Prism" value="1275" >
+                    <label for="Weaponghost3"> Prism</label><br>
+                    <input type="checkbox" id="GhostSkin4" name="Ego" value="1775" >
+                    <label for="Weaponghost4"> Ego</label><br>
+                    <input type="checkbox" id="GhostSkin5" name="Winterwunderland" value="1275" >
+                    <label for="Weaponghost5"> Winterwunderland</label><br>
+                    <input type="checkbox" id="GhostSkin6" name="VALORANT Go! Vol. 1" value="1775" >
+                    <label for="Weaponghost6"> VALORANT Go! Vol. 1</label><br>
+                    <input type="checkbox" id="GhostSkin7" name="Infantry" value="875" >
+                    <label for="Weaponghost7"> Infantry</label><br>
+                    <input type="checkbox" id="GhostSkin8" name="Magepunk" value="1775" >
+                    <label for="Weaponghost8"> Magepunk</label><br>
+                    <input type="checkbox" id="GhostSkin9" name="Tethered Realms" value="1775" >
+                    <label for="Weaponghost9"> Tethered Realms</label><br>
+                    <input type="checkbox" id="GhostSkin10" name="Ruination" value="2175" >
+                    <label for="Weaponghost10"> Ruination</label><br>
+                    <input type="checkbox" id="GhostSkin11" name="Recon" value="1775" >
+                    <label for="Weaponghost11"> Recon</label><br>
+                <h3 style="color:white; font-family:monospace; font-size: 30px; "><b><u>Guardian Skins</u></b></h3>
+                    <input type="checkbox" id="GuardianSkin1" name="Galleria" value="875" >
+                    <label for="Weaponguardian1"> Galleria</label><br>
+                    <input type="checkbox" id="GuardianSkin2" name="Prime" value="1775" >
+                    <label for="Weaponguardian2"> Prime</label><br>
+                    <input type="checkbox" id="GuardianSkin3" name="Sovereign" value="1775" >
+                    <label for="Weaponguardian3"> Sovereign</label><br>
+                    <input type="checkbox" id="GuardianSkin4" name="Oni" value="1775" >
+                    <label for="Weaponguardian4"> Oni</label><br>
+                    <input type="checkbox" id="GuardianSkin5" name="Nebula" value="1775" >
+                    <label for="Weaponguardian5"> Nebula</label><br>
+                    <input type="checkbox" id="GuardianSkin6" name="Ego" value="1775" >
+                    <label for="Weaponguardian6"> Ego</label><br>
+                    <input type="checkbox" id="GuardianSkin7" name="Reaver" value="1775" >
+                    <label for="Weaponguardian7"> Reaver</label><br>
+                    <input type="checkbox" id="GuardianSkin8" name="VALORANT Go! Vol. 1" value="1775" >
+                    <label for="Weaponguardian8"> VALORANT Go! Vol. 1</label><br>
+                    <input type="checkbox" id="GuardianSkin9" name="Infantry" value="875" >
+                    <label for="Weaponguardian9"> Infantry</label><br>
+                    <input type="checkbox" id="GuardianSkin10" name="Tethered Realms" value="1775" >
+                    <label for="Weaponguardian10"> Tethered Realms</label><br>
+                    <input type="checkbox" id="GuardianSkin11" name="Ruination" value="2175" >
+                    <label for="Weaponguardian11"> Ruination</label><br>
+                    <input type="checkbox" id="GuardianSkin12" name="Recon" value="1775" >
+                    <label for="Weaponguardian12"> Recon</label><br>
+                    <input type="checkbox" id="GuardianSkin13" name="SPECTRUM" value="2675" >
+                    <label for="Weaponguardian13"> SPECTRUM</label><br>
+                    <input type="checkbox" id="GuardianSkin14" name="RGX 11z Pro" value="2175" >
+                    <label for="Weaponguardian14"> RGX 11z Pro</label><br>
+                    <input type="checkbox" id="GuardianSkin15" name="Magepunk" value="1775" >
+                    <label for="Weaponguardian15"> Magepunk</label><br>
+                <h3 style="color:white; font-family:monospace; font-size: 30px; "><b><u>Judge Skins</u></b></h3>
+                    <input type="checkbox" id="JudgeSkin1" name="Luxe" value="875" >
+                    <label for="Weaponjudge1"> Luxe</label><br>
+                    <input type="checkbox" id="JudgeSkin2" name="Rush" value="875" >
+                    <label for="Weaponjudge2"> Rush</label><br>
+                    <input type="checkbox" id="JudgeSkin3" name="Convex" value="875" >
+                    <label for="Weaponjudge3"> Convex</label><br>
+                    <input type="checkbox" id="JudgeSkin4" name="Elderflame" value="2475" >
+                    <label for="Weaponjudge4"> Elderflame</label><br>
+                    <input type="checkbox" id="JudgeSkin5" name="Glitchpop" value="2175" >
+                    <label for="Weaponjudge5"> Glitchpop</label><br>
+                    <input type="checkbox" id="JudgeSkin6" name="Smite" value="875" >
+                    <label for="Weaponjudge6"> Smite</label><br>
+                    <input type="checkbox" id="JudgeSkin7" name="Sensation" value="875" >
+                    <label for="Weaponjudge7"> Sensation</label><br>
+                    <input type="checkbox" id="JudgeSkin8" name="Celestial" value="1775" >
+                    <label for="Weaponjudge8"> Celestial</label><br>
+                    <input type="checkbox" id="JudgeSkin9" name="Snowfall" value="1275" >
+                    <label for="Weaponjudge9"> Snowfall</label><br>
+                <h3 style="color:white; font-family:monospace; font-size: 30px; "><b><u>Melee Skins</u></b></h3>
+                    <input type="checkbox" id="AxeSkin1" name="Prime" value="3550" >
+                    <label for="Weaponaxe1"> Prime</label><br>
+                    <input type="checkbox" id="AxeSkin2" name="Glitchpop" value="4350" >
+                    <label for="Weaponaxe2"> Glitchpop</label><br>
+                    <input type="checkbox" id="BalisonSkin1" name="Recon" value="3550" >
+                    <label for="Weaponbalisong1"> Recon</label><br>
+                    <input type="checkbox" id="BaseballBatSkin1" name="Radiant Crisis 001" value="3550" >
+                    <label for="Weaponbaseballbat1"> Radiant Crisis 001</label><br>
+                    <input type="checkbox" id="BatonSkin1" name="Gravitational Uranium Neuroblaster" value="3550" >
+                    <label for="Weaponbaton1"> Gravitational Uranium Neuroblaster</label><br>
+                    <input type="checkbox" id="BladeSkin1" name="RGX 11z Pro" value="4350" >
+                    <label for="Weaponblade1"> RGX 11z Pro</label><br>
+                    <input type="checkbox" id="BrokenBladeOfTheRuinedKingSkin1" name="Ruination" value="4350" >
+                    <label for="Weaponbbotrk"> Ruination</label><br>
+                    <input type="checkbox" id="CandyCaneSkin1" name="Winterwunderland" value="2550" >
+                    <label for="Weaponcandycane1"> Winterwunderland</label><br>
+                    <input type="checkbox" id="CatrinaSkin1" name="Nunca Olvidados" value="2550" >
+                    <label for="Weaponcatrina1"> Nunca Olvidados</label><br>
+                    <input type="checkbox" id="ClawSkin1" name="Oni" value="3550" >
+                    <label for="Weaponclaw1"> Oni</label><br>
+                    <input type="checkbox" id="CrescentBladeSkin1" name="Origin" value="3550" >
+                    <label for="Weaponcrescentblade1"> Origin</label><br>
+                    <input type="checkbox" id="DaggerSkin1" name="Elderflame" value="4950" >
+                    <label for="Weapondagger1"> Elderflame</label><br>
+                    <input type="checkbox" id="DaggerSkin2" name="Glitchpop" value="4350" >
+                    <label for="Weapondagger2"> Glitchpop</label><br>
+                    <input type="checkbox" id="DaggerSkin3" name="Spline" value="3550" >
+                    <label for="Weapondagger3"> Spline</label><br>
+                    <input type="checkbox" id="ElectrobladeSkin1" name="Magepunk" value="3550" >
+                    <label for="Weaponelectroblade1"> Magepunk</label><br>
+                    <input type="checkbox" id="EnergySwordSkin1" name="Ion" value="3550" >
+                    <label for="Weaponenergysword1"> Ion</label><br>
+                    <input type="checkbox" id="FanSkin1" name="Celestial" value="3550" >
+                    <label for="Weaponfan1"> Celestial</label><br>
+                    <input type="checkbox" id="KarambitSkin1" name="Prime//2.0" value="3550" >
+                    <label for="Weaponkarambit1"> Prime//2.0</label><br>
+                    <input type="checkbox" id="KarambitSkin2" name="Champions 2021" value="5350" >
+                    <label for="Weaponkarambit2"> Champions 2021</label><br>
+                    <input type="checkbox" id="KnifeSkin1" name="Luxe" value="1750" >
+                    <label for="Weaponknife1"> Luxe</label><br>
+                    <input type="checkbox" id="KnifeSkin2" name="Prism" value="2550" >
+                    <label for="Weaponknife2"> Prism</label><br>
+                    <input type="checkbox" id="KnifeSkin3" name="Nebula" value="3550" >
+                    <label for="Weaponknife3"> Nebula</label><br>
+                    <input type="checkbox" id="KnifeSkin4" name="Ego" value="3550" >
+                    <label for="Weaponknife4"> Ego</label><br>
+                    <input type="checkbox" id="KnifeSkin5" name="Smite" value="1750" >
+                    <label for="Weaponknife5"> Smite</label><br>
+                    <input type="checkbox" id="KnifeSkin6" name="Singularity" value="4350" >
+                    <label for="Weaponknife6"> Singularity</label><br>
+                    <input type="checkbox" id="KnifeSkin7" name="Reaver" value="3550" >
+                    <label for="Weaponknife7"> Reaver</label><br>
+                    <input type="checkbox" id="KnifeSkin8" name="VALORANT Go! Vol. 1" value="3550" >
+                    <label for="Weaponknife8"> VALORANT Go! Vol. 1</label><br>
+                    <input type="checkbox" id="PKCKSkin1" name="BlastX" value="4350" >
+                    <label for="Weaponpkck1"> BlastX</label><br>
+                    <input type="checkbox" id="ProsperitySkin1" name="Tethered Realms" value="3550" >
+                    <label for="Weaponprosperity1"> Tethered Realm</label><br>
+                    <input type="checkbox" id="ROTSSkin1" name="Sentinels of Light" value="4350" >
+                    <label for="Weaponrots1"> Sentinels of Light</label><br>
+                    <input type="checkbox" id="RitualBladeSkin1" name="Forsaken" value="3550" >
+                    <label for="Weaponritualblade1"> Forsaken</label><br>
+                    <input type="checkbox" id="ShockGauntletSkin1" name="Magepunk" value="3550" >
+                    <label for="Weaponshockgauntlet1"> Magepunk</label><br>
+                    <input type="checkbox" id="SwordSkin1" name="Sovereign" value="3550" >
+                    <label for="Weaponsword1"> Sovereign</label><br>
+                    <input type="checkbox" id="WandSkin1" name="Snowfall" value="2550" >
+                    <label for="Weaponwand1"> Snowfall</label><br>
+                    <input type="checkbox" id="WaveformSkin1" name="SPECTRUM" value="5350" >
+                    <label for="Weaponwaveform1"> SPECTRUM</label><br>
+                    <input type="checkbox" id="YSBCSkin1" name="VALORANT Go! Vol. 2" value="3550" >
+                    <label for="Weaponysbc1"> VALORANT Go! Vol. 2</label><br>
+                <h3 style="color:white; font-family:monospace; font-size: 30px; "><b><u>Marshal Skins</u></b></h3>
+                    <input type="checkbox" id="MarshalSkin1" name="Galleria" value="875" >
+                    <label for="Weaponmarshal1"> Galleria</label><br>
+                    <input type="checkbox" id="MarshalSkin2" name="Avalanche" value="1275" >
+                    <label for="Weaponmarshal2"> Avalanche</label><br>
+                    <input type="checkbox" id="MarshalSkin3" name="Sovereign" value="1775" >
+                    <label for="Weaponmarshal3"> Sovereign</label><br>
+                    <input type="checkbox" id="MarshalSkin4" name="Wasteland" value="1275" >
+                    <label for="Weaponmarshal4"> Wasteland</label><br>
+                    <input type="checkbox" id="MarshalSkin5" name="Winterwunderland" value="1275" >
+                    <label for="Weaponmarshal5"> Winterwunderland</label><br>
+                    <input type="checkbox" id="MarshalSkin6" name="Magepunk" value="1775" >
+                    <label for="Weaponmarshal6"> Magepunk</label><br>
+                <h3 style="color:white; font-family:monospace; font-size: 30px; "><b><u>Odin Skins</u></b></h3>
+                    <input type="checkbox" id="OdinSkin1" name="Glitchpop" value="2175" >
+                    <label for="Weaponodin1"> Glitchpop</label><br>
+                    <input type="checkbox" id="OdinSkin2" name="Smite" value="875" >
+                    <label for="Weaponodin2"> Smite</label><br>
+                    <input type="checkbox" id="OdinSkin3" name="Sensation" value="875" >
+                    <label for="Weaponodin3"> Sensation</label><br>
+                    <input type="checkbox" id="OdinSkin4" name="BlastX" value="2175" >
+                    <label for="Weaponodin4"> BlastX</label><br>
+                    <input type="checkbox" id="OdinSkin5" name="Prime//2.0" value="1775" >
+                    <label for="Weaponodin5"> Prime//2.0</label><br>
+                <h3 style="color:white; font-family:monospace; font-size: 30px; "><b><u>Operator Skins</u></b></h3>
+                    <input type="checkbox" id="OperatorSkin1" name="Luxe" value="875" >
+                    <label for="Weaponoperator1"> Luxe</label><br>
+                    <input type="checkbox" id="OperatorSkin2" name="Convex" value="875" >
+                    <label for="Weaponoperator2"> Convex</label><br>
+                    <input type="checkbox" id="OperatorSkin3" name="Prism" value="1275" >
+                    <label for="Weaponoperator3"> Prism</label><br>
+                    <input type="checkbox" id="OperatorSkin4" name="Elderflame" value="2475" >
+                    <label for="Weaponoperator4"> Elderflame</label><br>
+                    <input type="checkbox" id="OperatorSkin5" name="Spline" value="1775" >
+                    <label for="Weaponoperator5"> Spline</label><br>
+                    <input type="checkbox" id="OperatorSkin6" name="Gravitational Uranium Neuroblaster" value="1775" >
+                    <label for="Weaponoperator6"> Gravitational Uranium Neuroblaster</label><br>
+                    <input type="checkbox" id="OperatorSkin7" name="Reaver" value="1775" >
+                    <label for="Weaponoperator7"> Reaver</label><br>
+                    <input type="checkbox" id="OperatorSkin8" name="Ion" value="1775" >
+                    <label for="Weaponoperator8"> Ion</label><br>
+                    <input type="checkbox" id="OperatorSkin9" name="Glitchpop" value="2175" >
+                    <label for="Weaponoperator9"> Glitchpop</label><br>
+                    <input type="checkbox" id="OperatorSkin10" name="Infantry" value="875" >
+                    <label for="Weaponoperator10"> Infantry</label><br>
+                    <input type="checkbox" id="OperatorSkin11" name="Silvanus" value="1275" >
+                    <label for="Weaponoperator11"> Silvanus</label><br>
+                    <input type="checkbox" id="OperatorSkin12" name="Forsaken" value="1775" >
+                    <label for="Weaponoperator12"> Forsaken</label><br>
+                    <input type="checkbox" id="OperatorSkin13" name="Minima" value="1275" >
+                    <label for="Weaponoperator13"> Minima</label><br>
+                    <input type="checkbox" id="OperatorSkin14" name="Tethered Realms" value="1775" >
+                    <label for="Weaponoperator14"> Tethered Realms</label><br>
+                    <input type="checkbox" id="OperatorSkin15" name="Origin" value="1775" >
+                    <label for="Weaponoperator15"> Origin</label><br>
+                    <input type="checkbox" id="OperatorSkin16" name="Sentinels of Light" value="2175" >
+                    <label for="Weaponoperator16"> Sentinels of Light</label><br>
+                    <input type="checkbox" id="OperatorSkin17" name="VALORANT Go! Vol. 2" value="1775" >
+                    <label for="Weaponoperator17"> VALORANT Go! Vol. 2</label><br>
+                    <input type="checkbox" id="OperatorSkin18" name="Magepunk" value="1775" >
+                    <label for="Weaponoperator18"> Magepunk</label><br>
+                <h3 style="color:white; font-family:monospace; font-size: 30px; "><b><u>Phantom Skins</u></b></h3>
+                    <input type="checkbox" id="PhantomSkin1" name="Galleria" value="875" >
+                    <label for="Weaponphantom1"> Galleria</label><br>
+                    <input type="checkbox" id="PhantomSkin2" name="Rush" value="875" >
+                    <label for="Weaponphantom2"> Rush</label><br>
+                    <input type="checkbox" id="PhantomSkin3" name="Avalanche" value="1275" >
+                    <label for="Weaponphantom3"> Avalanche</label><br>
+                    <input type="checkbox" id="PhantomSkin4" name="Prism" value="1275" >
+                    <label for="Weaponphantom4"> Prism</label><br>
+                    <input type="checkbox" id="PhantomSkin5" name="Oni" value="1775" >
+                    <label for="Weaponphantom5"> Oni</label><br>
+                    <input type="checkbox" id="PhantomSkin6" name="Nebula" value="1775" >
+                    <label for="Weaponphantom6"> Nebula</label><br>
+                    <input type="checkbox" id="PhantomSkin7" name="Spline" value="1775" >
+                    <label for="Weaponphantom7"> Spline</label><br>
+                    <input type="checkbox" id="PhantomSkin8" name="Smite" value="875" >
+                    <label for="Weaponphantom8"> Smite</label><br>
+                    <input type="checkbox" id="PhantomSkin9" name="Singularity" value="2175" >
+                    <label for="Weaponphantom9"> Singularity</label><br>
+                    <input type="checkbox" id="PhantomSkin10" name="Ion" value="1775" >
+                    <label for="Weaponphantom10"> Ion</label><br>
+                    <input type="checkbox" id="PhantomSkin11" name="Winterwunderland" value="1275" >
+                    <label for="Weaponphantom11"> Winterwunderland</label><br>
+                    <input type="checkbox" id="PhantomSkin12" name="BlastX" value="2175" >
+                    <label for="Weaponphantom12"> BlastX</label><br>
+                    <input type="checkbox" id="PhantomSkin13" name="Glitchpop" value="2175" >
+                    <label for="Weaponphantom13"> Glitchpop</label><br>
+                    <input type="checkbox" id="PhantomSkin14" name="Celestial" value="1775" >
+                    <label for="Weaponphantom14"> Celestial</label><br>
+                    <input type="checkbox" id="PhantomSkin15" name="VALORANT Go! Vol. 1" value="1775" >
+                    <label for="Weaponphantom15"> VALORANT Go! Vol. 1</label><br>
+                    <input type="checkbox" id="PhantomSkin16" name="Prime//2.0" value="1775" >
+                    <label for="Weaponphantom16"> Prime//2.0</label><br>
+                    <input type="checkbox" id="PhantomSkin17" name="Silvanus" value="1275" >
+                    <label for="Weaponphantom17"> Silvanus</label><br>
+                    <input type="checkbox" id="PhantomSkin18" name="Minima" value="1275" >
+                    <label for="Weaponphantom18"> Minima</label><br>
+                    <input type="checkbox" id="PhantomSkin19" name="Ruination" value="2175" >
+                    <label for="Weaponphantom19"> Ruination</label><br>
+                    <input type="checkbox" id="PhantomSkin20" name="Recon" value="1775" >
+                    <label for="Weaponphantom20"> Recon</label><br>
+                    <input type="checkbox" id="PhantomSkin21" name="SPECTRUM" value="2675" >
+                    <label for="Weaponphantom21"> SPECTRUM</label><br>
+                    <input type="checkbox" id="PhantomSkin22" name="Radiant Crisis 001" value="1775" >
+                    <label for="Weaponphantom22"> Radiant Crisis 001</label><br>
+                    <input type="checkbox" id="PhantomSkin23" name="Snowfall" value="1275" >
+                    <label for="Weaponphantom23"> Snowfall</label><br>
+                <h3 style="color:white; font-family:monospace; font-size: 30px; "><b><u>Sheriff Skins</u></b></h3>
+                    <input type="checkbox" id="SheriffSkin1" name="Aristocrat" value="1275" >
+                    <label for="Weaponsheriff1"> Aristocrat</label><br>
+                    <input type="checkbox" id="SheriffSkin2" name="Sakura" value="1275" >
+                    <label for="Weaponsheriff2"> Sakura</label><br>
+                    <input type="checkbox" id="SheriffSkin3" name="Convex" value="875" >
+                    <label for="Weaponsheriff3"> Convex</label><br>
+                    <input type="checkbox" id="SheriffSkin4" name="Nebula" value="1775" >
+                    <label for="Weaponsheriff4"> Nebula</label><br>
+                    <input type="checkbox" id="SheriffSkin5" name="Singularity" value="2175" >
+                    <label for="Weaponsheriff5"> Singularity</label><br>
+                    <input type="checkbox" id="SheriffSkin6" name="Reaver" value="1775" >
+                    <label for="Weaponsheriff6"> Reaver</label><br>
+                    <input type="checkbox" id="SheriffSkin7" name="Ion" value="1775" >
+                    <label for="Weaponsheriff7"> Ion</label><br>
+                    <input type="checkbox" id="SheriffSkin8" name="Wasteland" value="1275" >
+                    <label for="Weaponsheriff8"> Wasteland</label><br>
+                    <input type="checkbox" id="SheriffSkin9" name="Prism II" value="875" >
+                    <label for="Weaponsheriff9"> Prism II</label><br>
+                    <input type="checkbox" id="SheriffSkin9" name="Silvanus" value="1275" >
+                    <label for="Weaponsheriff9"> Silvanus</label><br>
+                    <input type="checkbox" id="SheriffSkin10" name="Minima" value="1275" >
+                    <label for="Weaponsheriff10"> Minima</label><br>
+                    <input type="checkbox" id="SheriffSkin11" name="Sentinels of Light" value="2175" >
+                    <label for="Weaponsheriff11"> Sentinels of Light</label><br>
+                    <input type="checkbox" id="SheriffSkin12" name="Arcane" value="2377" >
+                    <label for="Weaponsheriff12"> Arcane</label><br>
+                    <input type="checkbox" id="SheriffSkin13" name="Magepunk" value="1775" >
+                    <label for="Weaponsheriff13"> Magepunk</label><br>
+                <h3 style="color:white; font-family:monospace; font-size: 30px; "><b><u>Shorty Skins</u></b></h3>
+                    <input type="checkbox" id="ShortySkin1" name="Oni" value="1775" >
+                    <label for="Weaponshorty1"> Oni</label><br>
+                    <input type="checkbox" id="ShortySkin2" name="Wasteland" value="1275" >
+                    <label for="Weaponshorty2"> Wasteland</label><br>
+                    <input type="checkbox" id="ShortySkin3" name="PrismII" value="875" >
+                    <label for="Weaponshorty1"> Prism II</label><br>
+                <h3 style="color:white; font-family:monospace; font-size: 30px; "><b><u>Spectre Skins</u></b></h3>
+                    <input type="checkbox" id="SpectreSkin1" name="Luxe" value="875" >
+                    <label for="Weaponspectrey1"> Luxe</label><br> 
+                    <input type="checkbox" id="SpectreSkin2" name="Convex" value="875" >
+                    <label for="Weaponspectrey2"> Convex</label><br>
+                    <input type="checkbox" id="SpectreSkin3" name="Avalanche" value="1275" >
+                    <label for="Weaponspectrey3"> Avalance</label><br>
+                    <input type="checkbox" id="SpectreSkin4" name="Prime" value="1775" >
+                    <label for="Weaponspectrey4"> Prime</label><br>
+                    <input type="checkbox" id="SpectreSkin5" name="Prism" value="1275" >
+                    <label for="Weaponspectrey5"> Prism</label><br>
+                    <input type="checkbox" id="SpectreSkin6" name="Spline" value="1775" >
+                    <label for="Weaponspectrey6"> Spline</label><br>
+                    <input type="checkbox" id="SpectreSkin7" name="Gravitational Uranium Neuroblaster" value="1775" >
+                    <label for="Weaponspectrey7"> Gravitational Uranium Neuroblaster</label><br>
+                    <input type="checkbox" id="SpectreSkin8" name="Singularity" value="2175" >
+                    <label for="Weaponspectrey8"> Singularity</label><br>
+                    <input type="checkbox" id="SpectreSkin9" name="Wasteland" value="1275" >
+                    <label for="Weaponspectrey9"> Wasteland</label><br>
+                    <input type="checkbox" id="SpectreSkin10" name="BlastX" value="2175" >
+                    <label for="Weaponspectrey10"> BlastX</label><br>
+                    <input type="checkbox" id="SpectreSkin11" name="Horizon" value="1275" >
+                    <label for="Weaponspectrey11"> Horizon</label><br>
+                    <input type="checkbox" id="SpectreSkin12" name="VALORANT Go! Vol. 1" value="1775" >
+                    <label for="Weaponspectrey12"> VALORANT Go! Vol. 1</label><br>
+                    <input type="checkbox" id="SpectreSkin13" name="Infantry" value="875" >
+                    <label for="Weaponspectrey13"> Infantry</label><br>
+                    <input type="checkbox" id="SpectreSkin14" name="Magepunk" value="1775" >
+                    <label for="Weaponspectrey14"> Magepunk</label><br>
+                    <input type="checkbox" id="SpectreSkin15" name="Forsaken" value="1775" >
+                    <label for="Weaponspectrey15"> Forsaken</label><br>
+                    <input type="checkbox" id="SpectreSkin16" name="Minima" value="1275" >
+                    <label for="Weaponspectrey16"> Minima</label><br>
+                    <input type="checkbox" id="SpectreSkin17" name="Ruination" value="2175" >
+                    <label for="Weaponspectrey17"> Ruination</label><br>
+                    <input type="checkbox" id="SpectreSkin18" name="Recon" value="1775" >
+                    <label for="Weaponspectrey18"> Recon</label><br>
+                    <input type="checkbox" id="SpectreSkin19" name="Radiant Crisis 001" value="1775" >
+                    <label for="Weaponspectrey19"> Radiant Crisis 001</label><br>
+                <h3 style="color:white; font-family:monospace; font-size: 30px; "><b><u>Stinger Skins</u></b></h3>
+                    <input type="checkbox" id="StingerSkin1" name="Aristocrat" value="1275" >
+                    <label for="Weaponstinger1"> Aristocrat</label><br>
+                    <input type="checkbox" id="StingerSkin2" name="Sakura" value="1275" >
+                    <label for="Weaponstinger2"> Sakura</label><br>
+                    <input type="checkbox" id="StingerSkin3" name="Sovereign" value="1775" >
+                    <label for="Weaponstinger3"> Sovereign</label><br>
+                    <input type="checkbox" id="StingerSkin4" name="Ego" value="1775" >
+                    <label for="Weaponstinger4"> Ego</label><br>
+                    <input type="checkbox" id="StingerSkin5" name="Sensation" value="875" >
+                    <label for="Weaponstinger5"> Sensation</label><br>
+                    <input type="checkbox" id="StingerSkin6" name="Prism II" value="875" >
+                    <label for="Weaponstinger6"> Prism II</label><br>
+                    <input type="checkbox" id="StingerSkin7" name="Silvanus" value="1275" >
+                    <label for="Weaponstinger7"> Silvanus</label><br>
+                    <input type="checkbox" id="StingerSkin8" name="RGX 11z Pro" value="2175" >
+                    <label for="Weaponstinger8"> RGX 11z Pro</label><br>
+                <h3 style="color:white; font-family:monospace; font-size: 30px; "><b><u>Vandal Skins</u></b></h3>
+                    <input type="checkbox" id="VandalSkin1" name="Luxe" value="875" >
+                    <label for="Weaponvandal1"> Luxe</label><br>
+                    <input type="checkbox" id="VandalSkin2" name="Aristocrat" value="1275" >
+                    <label for="Weaponvandal2"> Aristocrat</label><br>
+                    <input type="checkbox" id="VandalSkin3" name="Sakura" value="1275" >
+                    <label for="Weaponvandal3"> Sakura</label><br>
+                    <input type="checkbox" id="VandalSkin4" name="Avalanche" value="1275" >
+                    <label for="Weaponvandal4"> Avalanche</label><br>
+                    <input type="checkbox" id="VandalSkin5" name="Prime" value="1775" >
+                    <label for="Weaponvandal5"> Prime</label><br>
+                    <input type="checkbox" id="VandalSkin6" name="Elderflame" value="2475" >
+                    <label for="Weaponvandal6"> Elderflame</label><br>
+                    <input type="checkbox" id="VandalSkin7" name="Ego" value="1775" >
+                    <label for="Weaponvandal7"> Ego</label><br>
+                    <input type="checkbox" id="VandalSkin8" name="Reaver" value="1775" >
+                    <label for="Weaponvandal8"> Reaver</label><br>
+                    <input type="checkbox" id="VandalSkin9" name="Wasteland" value="1275" >
+                    <label for="Weaponvandal9"> Wasteland</label><br>
+                    <input type="checkbox" id="VandalSkin10" name="Sensation" value="875" >
+                    <label for="Weaponvandal10"> Sensation</label><br>
+                    <input type="checkbox" id="VandalSkin11" name="Winterwunderland" value="1275" >
+                    <label for="Weaponvandal11"> Winterwunderland</label><br>
+                    <input type="checkbox" id="VandalSkin12" name="Prism II" value="875" >
+                    <label for="Weaponvandal12"> Prism II</label><br>
+                    <input type="checkbox" id="VandalSkin13" name="Horizon" value="1275" >
+                    <label for="Weaponvandal13"> Horizon</label><br>
+                    <input type="checkbox" id="VandalSkin14" name="Glitchpop" value="2175" >
+                    <label for="Weaponvandal14"> Glitchpop</label><br>
+                    <input type="checkbox" id="VandalSkin15" name="Silvanus" value="1275" >
+                    <label for="Weaponvandal15"> Silvanus</label><br>
+                    <input type="checkbox" id="VandalSkin16" name="Forsaken" value="1775" >
+                    <label for="Weaponvandal16"> Forsaken</label><br>
+                    <input type="checkbox" id="VandalSkin17" name="Tethered Realms" value="1775" >
+                    <label for="Weaponvandal17"> Tethered Realms</label><br>
+                    <input type="checkbox" id="VandalSkin18" name="Origin" value="1775" >
+                    <label for="Weaponvandal18"> Origin</label><br>
+                    <input type="checkbox" id="VandalSkin19" name="Sentinels of Light" value="2175" >
+                    <label for="Weaponvandal19"> Sentinels of Light</label><br>
+                    <input type="checkbox" id="VandalSkin20" name="VALORANT Go! Vol. 2" value="1775" >
+                    <label for="Weaponvandal20"> VALORANT Go! Vol. 2</label><br>
+                    <input type="checkbox" id="VandalSkin21" name="RGX 11z Pro" value="2175" >
+                    <label for="Weaponvandal21"> RGX 11z Pro</label><br>
+                    <input type="checkbox" id="VandalSkin22" name="Nunca Olvidados" value="1275" >
+                    <label for="Weaponvandal22"> Nunca Olvidados</label><br>
+                    <input type="checkbox" id="VandalSkin23" name="Champions 2021" value="2675" >
+                    <label for="Weaponvandal23"> Champions 2021</label><br>
+                
+            </form> 
+        </div>
+        
+        <script type="text/javascript">  
+            function selects(){  
+                var ele=document.getElementsByTagName("input");  
+                for(var i=0; i<ele.length; i++){  
+                    if(ele[i].type=='checkbox')  
+                        ele[i].checked=true;  
+                }  
+            }  
+            function deSelect(){  
+                var ele=document.getElementsByTagName("input");  
+                for(var i=0; i<ele.length; i++){  
+                    if(ele[i].type=='checkbox')  
+                        ele[i].checked=false;  
+                      
+                }  
+            }             
+        </script>  
+        
+        <script>
+            function calculatePrice(Skins)
+                {
+                    var total = 0;
+                    var skin = document.getElementsByTagName("input");
+                
+                    for(var i = 0; i < 245; i++)
+                        {
+                            if(skin[i].checked)
+                                {
+                                    total += (skin[i].value*1);
+                                }
+                        }
+                
+                    document.getElementById("TotalPrice").value=total;
+                
+                }
+        </script>
+        
+        <div id="final">
+            <br><br><br><b>The value of your inventory in Valorant Points:</b><input type="text" id="TotalPrice" size=8><br>
+            <input type="button" class="button" onclick='selects()' value="Select All"/>
+            <input type="button" class="button" onclick='deSelect()' value="Deselect All"/>
+            <button type="button" class="button" onclick="calculatePrice()">Calculate</button>
+        </div>
+        
+        <div id="Facts">
+        
+            <h1 style="text-align: center"><b><u>Fun Facts about Valorant Skins</u></b></h1>
+            <ul>
+                <li>Did you know that if you wanted to own all the skins from store in VALORANT you would need 459777 Points! </li>
+                
+            </ul>
+        </div>
+        
+        
+        <div id="About">
+            
+            <h1 style="text-align: center"><b><u>About this Website</u></b></h1>
+        
+            <h2> This website was created by me(MRJ) and this is just a basic version of the website I have imagined to build for my friends and fellow valorant players and the goal for me was to build this website to test my html abilities and also this is my first real "project" I can say that I have worked on!</h2><br>
+            <h2> I am not sure how long I will be able to keep this website upto date with valorant but I will try my best to do so and also my future goal is to rebuild this website with Riot Games integration so that the tedious task of ticking all the skins you have and calculating can be automated through VALORANT API and so that you can just sign in and check your inventory worth without all the ticking.</h2><br>
+            <h2><b><u>This website was also made in purely raw HTML and CSS and JS without any linking to other website or without any templates and all the lines of code was handtyped by me!</u></b></h2><br>
+            <h2> Thanks to my friends Jatin and Jayanth for guiding me in this project and to all the people who support me!</h2><br>
+            <h1><u>Made By:</u></h1>
+            <h1><b><u>@MRJGAMER</u></b></h1>
+            <a href="https://www.youtube.com/channel/UC8ZyKk2KXgvFdF6cKBj1Xhg" target="_blank"><img class="logo" src="MRJ.jpg" alt="MRJ"></a>
+        
+        </div>
+        
+        <div class="parallax"></div>
+        
+        
+    </body>
+
+</html>
